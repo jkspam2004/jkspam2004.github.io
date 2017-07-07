@@ -14,6 +14,9 @@
         let tableHeader = tableInfo.tableHeader;
         let tableData = tableInfo.data;
 
+        let columnView = document.getElementById("view");
+        tableGen().addColumnView(columnView, tableHeader);
+
         let dataGrid = document.getElementById("datagrid");
         tableGen().addSelector(dataGrid);
 
@@ -23,7 +26,7 @@
 
         tableGen().addHeader(tableHeader, table);
         tableGen().addTableData(tableData, table);
-        
+
     }
 
     getTableData.open("GET", "static/files/data.json", true);

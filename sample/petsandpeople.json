@@ -1,0 +1,5 @@
+{
+    "tableHeading"     : "Table with Pet and People Names!",
+    "tableCellsPets"   : ["Pet Names", "Sparky", "Roxy", "Cat Meowington"],
+    "tableCellsPeople" : ["People Names", "Larry", "Julie", "Joel"]
+}
